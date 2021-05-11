@@ -87,7 +87,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA USER」*\n\nKamu sudah terdaftar dengan data \n\n┏━➤Nama\n┗➤${namaUser}\n┏━➤Nomer\n┗➤wa.me/${sender.split("@")[0]}\n┏━➤umur\n┗➤${umurUser}\n┏━➤Waktu Pendaftaran\n┗➤${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗➤NOTE : Jangan sampai lupa save nomor admin Akira Bot Dan Jangan Lupa Untuk Ketik ${prefix}rules sebelum memulai botnya ya😁`
+	return`*「 DATA USER」*\n\nKamu sudah terdaftar dengan data \n\n┏━➤Nama\n┗➤${namaUser}\n┏━➤Nomer\n┗➤wa.me/${sender.split("@")[0]}\n┏━➤umur\n┗➤${umurUser}\n┏━➤Waktu Pendaftaran\n┗➤${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n`
 }
 
 exports.owneresce = (pushname) => {
