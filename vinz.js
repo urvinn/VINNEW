@@ -322,7 +322,7 @@ vinz.on('group-participants-update', async (anu) => {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-					pp_user = 'https://i.ibb.co/B6mZsR9/20210403-182628.jpg'
+					pp_user = 'https://i.ibb.co/4VWy1BM/logo.jpg'
 				teks = `
 Haii
 @${num.split('@')[0]}
@@ -333,7 +333,7 @@ Haii
 				vinz.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-					pp_user = 'https://i.ibb.co/ZSV8q3y/20210403-183459.jpg'
+					pp_user = 'https://i.ibb.co/4VWy1BM/logo.jpg'
 				teks = `
 sᴇʟᴀᴍᴀᴛ ᴛɪɴɢɢᴀʟ 
 @${num.split('@')[0]} Have a Nice Day
@@ -6991,7 +6991,7 @@ break
                 if (namaUser.length >= 30) return reply(`*why is your name so long it's a name or a train*`)
                 if (umurUser > 20) return reply(`*UMUR KAMU TERLALU TUA*`)
                 if (umurUser < 10) return reply(`*UMUR KAMU TERLALU MUDA*`)
-                pp_user = await getBuffer(`https://i.ibb.co/zbS493t/20210403-184336.jpg`)
+                pp_user = await getBuffer(`https://i.ibb.co/4VWy1BM/logo.jpg`)
                 veri = sender
                 if (isGroup) {
                     addRegisteredUser(sender, namaUser, umurUser, biasalah, serialUser)
@@ -9583,7 +9583,7 @@ break
             case 'creator':
                   vinz.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
                   vinz.sendMessage(from, 'Tuh kontak ${namaowner} <•_•> ,Jangan Lupa Save Ya (*>*)',MessageType.text, { quoted: mek} )
-                  ini_buffer = await getBuffer("https://i.ibb.co/TBYdPv7/20210402-204108.jpg")
+                  ini_buffer = await getBuffer("https://i.ibb.co/4VWy1BM/logo.jpg")
                   vinz.sendMessage(from, ini_buffer, MessageType.image, {quoted: mek, caption: '*SUBSCRIBE:*\n*https://m.youtube.com/channel/UCvVd-kAsrJUjg0bwKqxUPeg*'})
                   break
 		break    
